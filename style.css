@@ -1,0 +1,754 @@
+*{
+    padding: 0px;
+    margin: 0%;
+    font-family: segoe ui;
+    border: border-box;
+}
+body{
+    background-color: #e9ecf5;
+}
+.fb-navbar{
+    display: flex;
+    align-items: center;
+    height: 55px;
+    width: 100%;
+   background-color: white;
+   border-bottom:0.5px solid rgb(218, 215, 215) ;
+   overflow-x: hidden;
+   
+}
+.fb-profile{
+    padding-left: 10px;
+    height: 55px;
+    width:300px ;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+.fblogo{
+display: inline-block;
+    font-size: 40px;
+    color: blue;
+    margin-right: 10px;
+}
+.fbsearch{
+    display: flex;
+ justify-content: space-evenly;
+    height:40px;
+    width:250px;
+    border: 0.5px solid transparent;
+    
+} 
+.Search{
+    border-top-right-radius: 20px;
+    border-bottom-right-radius: 20px;
+   border: none;
+    background-color: #f0f2f5 ;
+    width: 100%;
+}
+.search-icon{
+    border-top-left-radius: 20px;
+    border-bottom-left-radius: 20px;
+    display: flex;
+    align-items: center;
+    padding-right: 5px;
+    width: 40px;
+    color:gray;
+    background-color: #f0f2f5;
+    justify-content: center;
+}
+.home-opt{
+    margin-left:100px;
+    width: 550px;
+    height: 55px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin-right: 100px;
+}
+.home-icon{
+    height: 55px;
+    width: 105px;
+    font-size: 25px;
+    display: flex;
+    align-items: center;
+   justify-content: center;
+}
+.vid-icon{
+    height: 55px;
+    width: 105px;
+    font-size: 25px;
+    display: flex;
+    /* flex-direction: row-reverse; */
+    align-items: center;
+    justify-content: center;
+}
+.market-icon{
+    height: 55px;
+    width: 105px;
+    font-size: 25px;
+    display: flex;
+    justify-content: center;
+    /* flex-direction: row-reverse; */
+    align-items: center;
+}
+.group-icon{
+    height: 55px;
+    width: 105px;
+    font-size: 25px;
+    display: flex;
+    /* flex-direction: row-reverse; */
+    align-items: center;
+    justify-content: center;
+}
+.game-icon{
+    height: 55px;
+    width: 105px;
+    font-size: 25px;
+    display: flex;
+    justify-content: center;
+    /* flex-direction: row-reverse; */
+    align-items: center;
+}
+.nav-notifications{
+    height: 55px;
+    margin-left: 120px;
+    padding-right: 15px;
+    display: flex;
+    align-items: center;
+    justify-content:right;
+}
+.menu-icon{
+    height: 40px;
+width: 40px;
+display: flex;
+align-items: center;
+justify-content: center;
+border-radius: 50%;
+font-size: 20px;
+background-color:#e4e6eb;
+color: black;
+}
+.msg-icon{
+    height: 40px;
+width: 40px;
+display: flex;
+margin-left: 10px;
+align-items: center;
+justify-content: center;
+border-radius: 50%;
+font-size: 20px;
+background-color: #e4e6eb;
+color: black;
+}
+
+.notification-icon{
+    height: 40px;
+    margin-left: 10px;
+    display: flex;
+align-items: center;
+justify-content: center;
+width: 40px;
+color: black;
+border-radius: 50%;
+font-size: 20px;
+background-color:#e4e6eb;
+}
+.profile-icon{
+    height: 40px;
+width: 40px;
+display: flex;
+align-items: center;
+justify-content: center;
+margin-left: 10px;
+border-radius: 50%;
+font-size: 20px;
+color: black;
+background-color: #e4e6eb;
+}
+.home-icon:hover{
+    height: 55px;
+    background-color: rgb(218, 215, 215) ;
+    border: 0px solid transparent;
+}
+.vid-icon:hover{
+    height: 55px;
+    background-color: rgb(218, 215, 215) ;
+    border: 0px solid transparent;
+}
+.market-icon:hover{
+    height: 55px;
+    background-color: rgb(218, 215, 215) ;
+    border: 0px solid transparent;
+}
+.game-icon:hover{
+    height: 55px;
+    background-color: rgb(218, 215, 215) ;
+    border: 0px solid transparent;
+}
+.group-icon:hover{
+    height: 55px;
+    background-color: rgb(218, 215, 215) ;
+    border: 0px solid transparent;
+}
+a{
+    text-decoration: none;
+    color: black;
+}
+.fblogo a{
+    color: blue;
+}
+.main{
+    display: flex;
+}
+.menu{
+    width: 300px;
+    height: 560px;
+   overflow: hidden;
+   display:inline-block;
+    padding-left: 15px;
+}
+.prof-name{
+    height: 40px;
+    display: flex;
+    margin-top:20px;
+}
+.profile-pic{
+    height:30px;
+    width: 30px;
+    border-radius: 50%;
+}
+.name{
+    margin:5px 0px 0px 7px;
+    font-size: 15px;
+    font-weight:580;
+}
+.friend-list{
+    height: 40px;
+    display: flex;
+    align-items: center;
+    margin-top:10px;
+}
+.friend{
+font-size: 18px;
+}
+.frn-list{
+    margin:0px 0px 0px 7px;
+    font-size: 15px;
+    font-weight:580;
+}
+.videos{
+    height: 40px;
+    display: flex;
+    align-items: center;
+    margin-top:10px;
+}
+.video{
+    font-size: 22px;
+    border-radius: 50%;
+}
+.watch{
+    margin:0px 0px 0px 7px;
+    font-size: 15px;
+    font-weight:580;
+}
+.Feeds{
+    height: 40px;
+    display: flex;
+    align-items: center;
+    margin-top:10px;
+}
+.feed{
+    font-size: 22px;
+    border-radius: 50%;
+}
+.news-feed{
+    margin:0px 0px 0px 7px;
+    font-size: 15px;
+    font-weight:580;
+}
+.groups{
+    height: 40px;
+    display: flex;
+    align-items: center;
+    margin-top:10px;
+}
+.grp{
+    font-size: 22px;
+    border-radius: 50%;
+}
+.grps{
+    margin:0px 0px 0px 7px;
+    font-size: 15px;
+    font-weight:580;
+}
+.shop{
+    height: 40px;
+    display: flex;
+    align-items: center;
+    margin-top:10px;
+}
+.mrkt{
+    font-size: 22px;
+    border-radius: 50%;
+}
+.mrktplace{
+    margin:0px 0px 0px 7px;
+    font-size: 15px;
+    font-weight:580;
+}
+.prof-name:hover{
+    background-color: rgb(218, 215, 215) ;
+    border: 0px solid transparent;
+}
+.shop:hover{
+    background-color: rgb(218, 215, 215) ;
+    border: 0px solid transparent;
+}
+.groups:hover{
+    background-color: rgb(218, 215, 215) ;
+    border: 0px solid transparent;
+}
+.Feeds:hover{
+    background-color: rgb(218, 215, 215) ;
+    border: 0px solid transparent;
+}
+.videos:hover{
+    background-color: rgb(218, 215, 215) ;
+    border: 0px solid transparent;
+}
+.friend-list:hover{
+    background-color: rgb(218, 215, 215) ;
+    border: 0px solid transparent;
+}
+.rular1{
+border-color:rgba(218, 215, 215,0.25)  ;  
+}
+.shortcuts{
+    margin-top: 10px;
+    font-size: 17px;
+    font-weight: 650;
+    color: rgba(101, 103, 107,0.75);
+}
+.your-thoughts{
+    width: 265px;
+    height: 40px;
+    display: flex;
+    align-items: center;
+    margin-top: 10px;
+}
+.thoughts{
+    height: 28px;
+    width: 28px;
+    background-color:black;
+}
+.item1{
+   padding-left: 10px;
+   font-size: 15px;
+    font-weight:580;
+}
+.game1{
+    width: 265px;
+    height: 40px;
+    display: flex;
+    align-items: center;
+    margin-top: 10px;
+}
+.angry-bird{
+    height: 28px;
+    width: 28px;
+    background-color:white;
+}
+.item2{
+   padding-left: 10px;
+   font-size: 15px;
+    font-weight:580;
+}
+.game2{
+    width: 265px;
+    height: 40px;
+    display: flex;
+    align-items: center;
+    margin-top: 10px;
+}
+.battlefront{
+    height: 28px;
+    width: 28px;
+    background-color:black;
+}
+.item3{
+   padding-left: 10px;
+   font-size: 15px;
+    font-weight:580;
+}
+.game3{
+    width: 265px;
+    height: 40px;
+    display: flex;
+    align-items: center;
+    margin-top: 10px;
+}
+.clash-kings{
+    height: 28px;
+    width: 28px;
+    background-color:black;
+}
+.item4{
+   padding-left: 10px;
+   font-size: 15px;
+    font-weight:580;
+}
+.game4{
+    width: 265px;
+    height: 40px;
+    display: flex;
+    align-items: center;
+    margin-top: 10px;
+}
+.fly-smash{
+    height: 28px;
+    width: 28px;
+    background-color:black;
+}
+.item5{
+   padding-left: 10px;
+   font-size: 15px;
+    font-weight:580;
+}
+.your-thoughts:hover{
+    background-color: rgb(218, 215, 215) ;
+    border: 0px solid transparent;
+}
+.game1:hover{
+    background-color: rgb(218, 215, 215) ;
+    border: 0px solid transparent;
+}
+.game2:hover{
+    background-color: rgb(218, 215, 215) ;
+    border: 0px solid transparent;
+}
+.game3:hover{
+    background-color: rgb(218, 215, 215) ;
+    border: 0px solid transparent;
+}
+.game4:hover{
+    background-color: rgb(218, 215, 215) ;
+    border: 0px solid transparent;
+}
+.foot1{
+    font-size: 13px;
+    color: #65676b;
+}
+.menu:hover{
+    overflow-y: scroll;
+}
+.section2{
+    margin-top: 10px;
+    margin-left: 65px;
+    width: 100%;
+    height: fit-content;
+    display: flex;
+}
+.story
+{
+    display: flex;
+    margin-left: 18px;
+    margin-top: 5px;
+    width: 600px;
+    height: 230px;
+
+}
+.story div{
+    display: flex;
+    border-radius: 10px;
+    height: 210px;
+    width:110px;
+    background-color:white;
+    margin: 5px;
+}
+.box1{
+    align-self: center;
+    display: flex;
+    flex-direction: column;
+    overflow: hidden;
+}
+.box1 img{
+    height: 140px;
+    width: 130px;
+}
+.box1 i{
+    margin-left: 35%;
+    font-size: 30px;
+}
+.box1 p{
+    margin-left:15px;
+    margin-top: 5px;
+    font-weight: bold;
+    font-size: 14px;
+}
+.box2{
+    align-self: center;
+    display: flex;
+    flex-direction: column;
+    overflow: hidden;
+}
+.box2 img{
+    height: 170px;
+    width: 140px;
+}
+.box2 p{
+    margin-left:15px;
+    margin-top: 8px;
+    font-weight: bold;
+    font-size: 14px;
+}
+.box3{
+    align-self: center;
+    display: flex;
+    flex-direction: column;
+    overflow: hidden;
+}
+.box3 img{
+    height: 160px;
+    width: 140px;
+}
+.box3 p{
+    margin-left:15px;
+    margin-top: 5px;
+    font-weight: bold;
+    font-size: 14px;
+}
+.box4{
+    align-self: center;
+    display: flex;
+    flex-direction: column;
+    overflow: hidden;
+}
+.box4 img{
+    height: 170px;
+    width: 140px;
+}
+.box4 p{
+    margin-left:15px;
+    margin-top: 8px;
+    font-weight: bold;
+    font-size: 14px;
+}
+.box5{
+    align-self: center;
+    display: flex;
+    flex-direction: column;
+    overflow: hidden;
+}
+.box5 img{
+    height: 170px;
+    width: 140px;
+}
+.box5 p{
+    margin-left:15px;
+    margin-top: 8px;
+    font-weight: bold;
+    font-size: 14px;
+}
+div .arrow{
+    font-size:20px ;
+    color: #e4e6eb;
+    display: flex;
+    align-items: center;
+    position:relative;
+    right: 30px;
+    align-self: center;
+    justify-content: center;
+    height: 40px;
+    width: 40px;
+    border-radius: 50%;
+    background-color: white;
+}
+.story div:hover{
+    background-color: rgba(101, 103, 107, 0.2);
+
+}
+.status{
+    margin-left: 60px;
+    margin-top: 15px;
+    height: 125px;
+    width: 500px;
+    border-radius: 10px;
+    background-color: white;
+}
+.post{
+    height: 70px;
+    width: 450px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+.status .profile-pic{
+    margin-left: 10px;
+    height:45px;
+    width: 45px;
+    border-radius: 50%;
+}
+.text-status{
+    padding-left: 10px;
+    margin-left: 10px;
+    font-size: 17px;
+    height: 40px;
+    width:100%;
+    border-top-right-radius: 20px;
+    border-bottom-right-radius: 20px;
+    border-top-left-radius: 20px;
+    border-bottom-left-radius: 20px;
+   border: none;
+    background-color: #f0f2f5 ;
+}
+.vids-pics{
+    display:flex;
+    height: 55px;
+    width: 450px;
+    justify-content:space-evenly;
+    align-items: center;
+}
+.vids-pics i{
+    font-size: 24px;
+}
+.vids-pics span{
+    font-size: 15px;
+    color: grey;
+    font-weight: 550;
+}
+.vids-pics span:hover,.vids-pics i:hover{
+    background-color: rgb(218, 215, 215) ;
+    border: 0px solid transparent;
+}
+.update-posts{
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    height: max-content;
+    width: 500px;
+    background-color: white;
+    margin-left: 60px;
+    margin-top: 15px;
+}
+.pic1{
+    height: 40px;
+    width: 40px;
+    border-radius: 50%;
+    margin-left: 15px;
+}
+.my-posts{
+    height: 70px;
+    width: 450px;
+    display: flex;
+    align-items: center;
+}
+.name1{
+    font-weight: 600;
+    margin-left: 10px;
+}
+.time{
+    color:#65676b;
+    font-size: 13px;
+    margin-left: 10px;
+}
+    .discription{
+        margin-left: 15px;
+    }
+    .photo2{
+        margin-top: 10px;
+        height:350px;
+        width:100%;
+        background-color: aqua;
+        background-image:url(/profpic.jpg) ;
+        background-size: cover;
+    }
+    .like-comment{
+        margin-top: 10px;
+        height: 40px;
+        width: 100%;
+
+        display: flex;
+        justify-content: space-around;
+    }
+    .like-comment div:hover{
+        border: 0.5px solid transparent;
+        background-color: #e4e6eb;
+    }
+    .like-comment i{
+        font-size: 24px;
+
+    }
+    .like:active{
+        color: blue;
+    }
+    .contact{
+        margin-left: 130px;
+        width: 300px;
+    height: 560px;
+   /* overflow: hidden; */
+   /* display: -moz-inline-box; */
+    /* display: flex;
+    flex-direction: column; */
+         /* display: inline; */
+        overflow-y:hidden;    }
+
+    .contact:hover{
+        overflow-y: scroll;
+    }
+    .sponsers{
+        margin-top: 10px;
+    font-size: 16px;
+    font-weight: 650;
+    color: rgba(101, 103, 107,0.75);
+    }
+    .spon1{
+        font-size: 14px;
+        align-items: center;
+        margin-top: 20px;
+        display: flex;
+    }
+    .ad1{
+        margin-left: 5px;
+        height: 60px;
+        width: 60px;
+    }
+    .ad1-discr{
+      margin-left:10px ;
+      font-weight: 550;
+    }
+    .ad2{
+        margin-left: 5px;
+        height: 60px;
+        width: 60px;
+    }
+    .spon2{
+        font-size: 14px;
+        align-items: center;
+        margin-top: 20px;
+        display: flex;
+    }
+    .ad2-discr{
+        margin-left:10px ;
+      font-weight: 550;
+    }
+    .chats{
+        margin-top: 10px;
+        font-size: 16px;
+        font-weight: 650;
+        color: rgba(101, 103, 107,0.75);
+
+    }
+    .chat{
+        height: 100%;
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+    }
+ .no-chat{
+    padding-top: 80px;
+    align-self: center;
+    color:rgba(101, 103, 107,0.75);
+    font-size: 15px;
+    font-weight: 550;
+ }
